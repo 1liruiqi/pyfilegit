@@ -36,8 +36,8 @@ def main():
     csrf = get_csrf(s, login_url)
     data = {
         "csrfmiddlewaretoken": csrf,
-        "username": "sgcsh",
-        "password": 'csh525800',
+        "username": "XXXXX",
+        "password": 'XXXXXXX',
     }
     s.post(login_url, headers=headers, data=data)
     # print(login.text)
